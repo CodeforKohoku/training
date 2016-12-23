@@ -1,0 +1,2 @@
+# training
+CodeforKohokuメンバーのGitHubやjavascript練習用リポジトリです
