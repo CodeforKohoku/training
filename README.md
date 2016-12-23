@@ -10,3 +10,5 @@ http://uguisu.skr.jp/Windows/vi.html
 
 Git初心者に捧ぐ！Gitの「これなんで？」を解説します。 
 http://kray.jp/blog/git-why-explanation/
+
+江口です。入力成功！！
