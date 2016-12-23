@@ -9,4 +9,8 @@ viコマンド（vimコマンド）一覧
 http://uguisu.skr.jp/Windows/vi.html
 
 Git初心者に捧ぐ！Gitの「これなんで？」を解説します。 
-http://kray.jp/blog/git-why-explanation/
+http://kray.jp/blog/git-why-explnation/aa
+
+aaaaarexeddda
+
+:
