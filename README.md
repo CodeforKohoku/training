@@ -13,3 +13,5 @@ http://kray.jp/blog/git-why-explanation/
 
 
 writing test
+
+eguchi 自主学習中...
