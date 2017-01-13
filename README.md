@@ -13,4 +13,4 @@ http://kray.jp/blog/git-why-explanation/
 
 
 writing test
-復習中！(^^
+復習中！(^^)/
