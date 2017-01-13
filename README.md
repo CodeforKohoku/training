@@ -14,4 +14,3 @@ http://kray.jp/blog/git-why-explanation/
 
 writing test
 復習中！(^^
-Windows10環境です！
