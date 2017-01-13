@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FizzBuzz</title>
+<style type="text/css">
+p.red {color:red; font-size:30pt;}
+p.green {color:green; font-size:20pt;}
+p.blue {color:blue; font-size:20pt;}
+
+</style>
+
+	</head>
+	<body>
+		<h1>FizzBuzz</h1>
+		<p>1から20までの数をカウントする。
+		3の倍数で数字の代わりにFizz、5の倍数でBuzz、3と5の公倍数でFizzBuzzと言う</p>
+		<script type="text/javascript">
+			//カウントごとに表示を出し分ける関数
+		var $countA = 1;
+		function countUpA() {
+		    document.getElementById( "sampleOutputA" ).innerHTML = ++$countA;
+
+		    if ($countA == 21){
+		        document.getElementById("str").innerHTML="☆リセットしました☆";
+		        document.getElementById( "sampleOutputA" ).innerHTML = 1;
+		    } else if ($countA % 3 == 0 && $countA % 5 == 0){
+		        document.getElementById("str").innerHTML="<p class=\"red\">FizzBuzz</p>";
+		    } else if ($countA % 3 == 0) {
+		        document.getElementById("str").innerHTML="<p class=\"green\">Fizz</p>";
+		    } else if ($countA % 5 == 0) {
+		        document.getElementById("str").innerHTML="<p class=\"blue\">Buzz</p>";
+		    } else {
+		        document.getElementById("str").innerHTML="";
+
+		    }
+		}
+		</script>
+
+		<p>
+		    <button onclick="countUpA();">カウントアップ</button>
+		    <span id="sampleOutputA" style="margin-left: 10px;">1</span>
+		    <div id="str" style="margin-left: 50px;">☆何がでるかな？？☆</div>
+		</p>
+
+	</body>
+</html>
